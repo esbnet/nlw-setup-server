@@ -1,4 +1,13 @@
 {
   "editor.tabCompletion": "on",
-  "diffEditor.codeLens": true
+  "diffEditor.codeLens": true,
+  "sqltools.useNodeRuntime": true,
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "name": "db",
+      "database": "${workspaceFolder:server}/prisma/database/dev.db"
+    }
+  ]
 }
